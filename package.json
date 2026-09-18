@@ -1,0 +1,15 @@
+{
+  "name": "browser-agent",
+  "version": "1.0.0",
+  "description": "An LLM-controlled browser automation agent using Claude + Playwright",
+  "type": "module",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "install-browsers": "playwright install chromium"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "playwright": "^1.48.0"
+  }
+}
