@@ -9,7 +9,7 @@
     "install-browsers": "playwright install chromium"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.32.0",
+    "openai": "^4.68.0",
     "playwright": "^1.48.0"
   }
 }
